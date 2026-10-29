@@ -1,0 +1,88 @@
+import { GalleryItem } from '../types';
+
+export const GALLERY_ITEMS: GalleryItem[] = [
+  {
+    id: 'gal-1',
+    title: 'The Reading Nook & Coffee',
+    category: 'Atmosphere & Books',
+    image: 'https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1000&q=80',
+    caption: 'Sunlight filtering through bookshelves, quiet morning coffee, and unhurried pages in the heart of Bhubaneswar.',
+  },
+  {
+    id: 'gal-2',
+    title: 'Artisan Pour & Fresh Roast',
+    category: 'Coffee & Beverages',
+    image: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1000&q=80',
+    caption: 'Freshly pulled espresso with velvety microfoam, brewed with care for everyday ritual.',
+  },
+  {
+    id: 'gal-3',
+    title: 'Handcrafted Stone-Baked Pizza',
+    category: 'Artisanal Food',
+    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1000&q=80',
+    caption: 'Crisp, blistered thin crust topped with fresh basil, mozzarella, and house-made marinara sauce.',
+  },
+  {
+    id: 'gal-4',
+    title: 'Basque Burnt Cheesecake & Bakes',
+    category: 'Bakery & Desserts',
+    image: 'https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=1000&q=80',
+    caption: 'Caramelized to a deep amber finish with a luscious, gently trembling center.',
+  },
+  {
+    id: 'gal-5',
+    title: 'A Pause Over Good Pages',
+    category: 'Atmosphere & Books',
+    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1000&q=80',
+    caption: 'Curated books and calm table corners where conversations drift and time slows down.',
+  },
+  {
+    id: 'gal-6',
+    title: 'Classic Aglio E Olio & Handcrafted Pasta',
+    category: 'Artisanal Food',
+    image: 'https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=1000&q=80',
+    caption: 'Al dente pasta tossed in golden garlic slivers, chili flakes, and extra virgin olive oil.',
+  },
+  {
+    id: 'gal-7',
+    title: 'Chilled Citrus Mocktails & Refreshers',
+    category: 'Coffee & Beverages',
+    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=1000&q=80',
+    caption: 'Fresh fruit purées, muddled garden mint, and crisp sparkling tonic poured over cracked ice.',
+  },
+  {
+    id: 'gal-8',
+    title: 'Freshly Baked Baguettes & Artisan Breads',
+    category: 'Bakery & Desserts',
+    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80',
+    caption: 'Golden loaves baked daily in small batches with honest ingredients and crackly crusts.',
+  },
+  {
+    id: 'gal-9',
+    title: 'Slow Mornings at Bocca',
+    category: 'Atmosphere & Books',
+    image: 'https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1000&q=80',
+    caption: 'Warm wooden interiors, leafy potted greens, and the hum of friendly neighborhood energy.',
+  },
+  {
+    id: 'gal-10',
+    title: 'Buttermilk Pancakes with Honey & Fruits',
+    category: 'Artisanal Food',
+    image: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=1000&q=80',
+    caption: 'Fluffy golden pancakes griddled to order and stacked high with fresh berries and natural honey.',
+  },
+  {
+    id: 'gal-11',
+    title: 'Artisan Dark Chocolate Brownie',
+    category: 'Bakery & Desserts',
+    image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1000&q=80',
+    caption: 'Dense 70% dark cocoa brownie with crackled tops and molten chocolate pockets.',
+  },
+  {
+    id: 'gal-12',
+    title: 'Iced Americano & Espresso Tonic',
+    category: 'Coffee & Beverages',
+    image: 'https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=1000&q=80',
+    caption: 'Crisp cold brew and double-shot espresso poured over ice for sunny afternoons.',
+  },
+];
